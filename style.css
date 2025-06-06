@@ -109,6 +109,8 @@ a {
 
 .info {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     max-width: 200px;
@@ -128,47 +130,55 @@ a {
 }
 
 .container3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 100px 300px;
     background-color: #E5E7EB;
 }
 
 .text-3 {
     font-size: 36px;
-    font-style: light italic;
+    font-weight: 300;
+    font-style: italic;
     color: #1F2937;
 }
 
 .text-4 {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.info {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    text-align: end;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.829);
 }
 
 .container4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
+    margin: 100px 150px;
 }
 
 .card {
+    border-radius: 10px;
+    padding: 50px 25px;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    gap: 32px;
+    justify-content: space-around;
+}
+
+.card-heading {
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.signup-button-2 {
+    font-size: large;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
 }
